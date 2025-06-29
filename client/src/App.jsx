@@ -1,4 +1,4 @@
-
+import StartButton from './components/StartButton'
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      I'm sorry dev I am afraid I can't do that.
+    <StartButton/>
     </>
   )
 }
