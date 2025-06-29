@@ -1,28 +1,12 @@
-# 🤖 AI Assistant with React + n8n + LLM + Memory + Internet
+# React + Vite
 
-An AI-powered assistant built with a modular stack:  
-**React (UI) + Node.js (API) + n8n (workflow engine) + LLM (OpenAI/local) + Memory + Web access + Voice I/O**
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 🧠 Chat-based AI assistant using OpenAI or a local LLM
-- 🔄 Workflow automation via [n8n](https://n8n.io)
-- 🧩 Memory (short + long term) with vector search
-- 🌐 Real-time internet access through APIs and scraping (via n8n)
-- 🗣️ Voice input and text-to-speech output
-- 💬 React-based frontend with natural UI
+## Expanding the ESLint configuration
 
----
-
-## 🧱 Architecture
-
-```text
-[React Frontend] <-> [Node.js API Middleware] <-> [n8n Workflow Engine]
-                                |
-                       [LLM (OpenAI / Local)]
-                                |
-                 [Memory: DB + Vector DB (e.g. Qdrant)]
-                                |
-             [Internet APIs / Scrapers (via n8n workflows)]
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
