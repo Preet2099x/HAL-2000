@@ -1,4 +1,4 @@
-import StartButton from './components/StartButton'
+import StartButton from './components/StartButtton'
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <StartButton/>
+      <StartButton/>
     </>
   )
 }
